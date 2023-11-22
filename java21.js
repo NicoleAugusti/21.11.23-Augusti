@@ -27,3 +27,10 @@ const nome = [ "Iphone", "Mac", "Scrivania", "Lampadari"]
 nome.sort();
 console.log(nome);
 // expected output: Arrey ["Iphone "Lampadari", "Mac", "Scrivania"]
+
+const prezzo = [1000, 3000, 200, 600]
+prezzo.sort (function (a, b) {
+    return a-b;
+});
+console.log (prezzo);
+//espected output: Arrey [200,600,1000,3000]
