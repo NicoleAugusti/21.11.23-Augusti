@@ -33,4 +33,8 @@ prezzo.sort (function (a, b) {
     return a-b;
 });
 console.log (prezzo);
-//espected output: Arrey [200,600,1000,3000]
+//expected output: Arrey [200,600,1000,3000]
+
+function prezzoAlto(const prezzo) {
+    
+}
